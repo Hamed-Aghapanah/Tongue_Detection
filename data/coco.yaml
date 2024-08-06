@@ -1,0 +1,14 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: F:/project/Tehran/2PROGNOSMART/mfiles/111_Tongueclassification_dataset/yolo_dataset/images/train  # 118287 images
+val: F:/project/Tehran/2PROGNOSMART/mfiles/111_Tongueclassification_dataset/yolo_dataset/images/val  # 5000 images
+
+# number of classes
+nc: 4
+
+# class names
+names: ['Phlegmatic','Sanguine','Melancholic','Choleric']
+

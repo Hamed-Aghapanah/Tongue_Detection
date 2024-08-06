@@ -1,0 +1,51 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-06-25T11:33:08.657347",
+    "startedAt": "2023-06-25T11:33:08.497029",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--weights",
+        "yolo7-tiny.pt",
+        "--cfg",
+        "cfg/training/yolov7-tiny.yaml",
+        "--data",
+        "data/coco.yaml"
+    ],
+    "state": "running",
+    "program": "F:\\project\\Tehran\\2PROGNOSMART\\mfiles\\111_Tongueclassification_dataset\\yolov7-main\\train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-G6STEUN",
+    "username": "a",
+    "executable": "C:\\tentorch\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2601.0,
+        "min": 0.0,
+        "max": 2601.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2601.0,
+            "min": 0.0,
+            "max": 2601.0
+        }
+    ],
+    "disk": {
+        "total": 763.0165977478027,
+        "used": 451.7018127441406
+    },
+    "gpu": "NVIDIA GeForce GTX 980M",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 980M",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 31.936874389648438
+    }
+}
